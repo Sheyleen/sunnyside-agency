@@ -8,7 +8,6 @@
     img {
       align-self: center;
       width: 1%;
-      left: 0;
       height: 12vh;
     }
 
@@ -215,5 +214,25 @@
 
   .svg-white:hover {
     fill: white;
+  }
+}
+
+// media queries for becode's computers & old resolutions 
+@media screen and (max-height: 768px) and (max-width: 1366px) {
+  header {
+    height: 100vh;
+
+    img {
+      width: 3%;
+      height: 18vh;
+    }
+  }
+}
+
+@media screen and (max-height: 555px) {
+  header {
+    h1 {
+      font-size: 2.5em;
+    }
   }
 }
