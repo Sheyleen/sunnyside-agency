@@ -10,3 +10,4 @@ The site is responsive. Here the link:
 
 - HTML
 - SCSS
+- CSS
